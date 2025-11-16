@@ -1,0 +1,11 @@
+{
+  "name": "git-workflow",
+  "description": " git workflow with simple commands for committing, squashing commits and creating merge / pull request",
+  "version": "1.0.0",
+  "author": {
+    "name": "Marc Weinberger",
+    "url": "https://github.com/mixomat"
+  },
+  "skills": ["./skills/squash-commits"]
+}
+
