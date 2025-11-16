@@ -1,0 +1,9 @@
+{
+  "name": "claude-workflows",
+  "description": "Personal plugin marketplace for Claude Code",
+  "author": {
+    "name": "Marc Weinberger",
+    "url": "https://github.com/mixomat"
+  },
+  "plugins": []
+}
