@@ -6,6 +6,9 @@
     "name": "Marc Weinberger",
     "url": "https://github.com/mixomat"
   },
-  "skills": ["./skills/squash-commits"]
+  "skills": [
+    "./skills/squash-commits",
+    "./skills/clean-gone-branches"
+  ]
 }
 
