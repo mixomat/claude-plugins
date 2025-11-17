@@ -1,8 +1,7 @@
 {
-  "name": "claude-workflows",
+  "name": "mixomat-claude-plugins",
   "owner": {
     "name": "Marc Weinberger",
-    "email": "marc.weinberger@me.com",
     "url": "https://github.com/mixomat"
   },
   "plugins": [
