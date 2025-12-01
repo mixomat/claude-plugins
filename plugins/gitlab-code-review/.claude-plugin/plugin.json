@@ -1,0 +1,10 @@
+{
+  "name": "gitlab-code-review",
+  "description": "code review toolkit, uses multi sub-agent based workflow to review a local branch or a gitlab merge request",
+  "version": "1.0.0",
+  "author": {
+    "name": "Marc Weinberger",
+    "url": "https://github.com/mixomat"
+  }
+}
+
