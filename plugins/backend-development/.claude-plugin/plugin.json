@@ -1,0 +1,10 @@
+{
+  "name": "backend-development",
+  "description": "backend development toolkit, containing supporting skills for tdd, writing use cases and defining api specs",
+  "version": "1.0.0",
+  "author": {
+    "name": "Marc Weinberger",
+    "url": "https://github.com/mixomat"
+  }
+}
+

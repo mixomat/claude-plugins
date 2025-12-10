@@ -18,6 +18,13 @@
       "version": "1.0.0",
       "source": "./plugins/gitlab-code-review",
       "category": "development"
+    },
+    {
+      "name": "backend-development",
+      "description": "backend development toolkit, containing supporting skills for tdd, writing use cases and defining api specs",
+      "version": "1.0.0",
+      "source": "./plugins/backend-development",
+      "category": "development"
     }
   ]
 }
