@@ -1,5 +1,4 @@
 ---
-name: squash-commits
 description: Squash all commits in a feature branch into a single commit with an AI-generated summary message. Use when the user wants to clean up their git history before merging, combine multiple commits, or create a single commit from a feature branch.
 allowed-tools: Bash, AskUserQuestion
 ---

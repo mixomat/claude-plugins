@@ -1,5 +1,4 @@
 ---
-name: clean-gone-branches
 description: Clean up local git branches marked as [gone] (deleted on remote but still exist locally). Use when the user wants to clean up stale branches, remove gone branches, or delete branches that no longer exist on remote.
 allowed-tools: Bash
 ---

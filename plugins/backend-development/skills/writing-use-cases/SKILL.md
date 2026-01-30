@@ -1,5 +1,4 @@
 ---
-name: writing-use-cases
 description: Create structured use case documentation with sequence diagrams for backend systems. Use when documenting API endpoints, service interactions, event flows, or system behaviors. Triggers on requests like "document this use case", "create use case for X endpoint", "write flow documentation", or "explain how X feature works".
 ---
 
