@@ -68,11 +68,10 @@ assistant uses Task tool with: "Run all integration tests in the package com.exa
 
 ### Step 4: Analyze Results
 - Check the exit code of the Gradle command
-- If tests fail, read the test report files typically located at:
-  - `build/reports/tests/test/index.html` (or the plain text/XML output)
-  - `build/test-results/test/*.xml` (JUnit XML reports)
-- For multi-module projects, check the relevant module's build directory
-- Parse XML test results for precise failure details when available
+- The Gradle console output (from `--stacktrace`) already contains all necessary information: test names, pass/fail status, assertion messages, and stack traces
+- Extract test counts and failure details directly from the console output — do NOT parse HTML or XML report files
+- If the console output is insufficient, use the `Read` tool to read the plain-text XML files at `build/test-results/test/*.xml` — never write scripts to parse them
+- **NEVER write Python, Bash, or any other scripts to parse test output files** — use the Read and Grep tools directly
 
 ### Step 5: Report Results
 Always return results in this structured format:
